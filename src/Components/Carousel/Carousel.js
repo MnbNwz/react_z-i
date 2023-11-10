@@ -1,6 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "./carousel.css";
 
 const Carousel = () => {
   let settings = {
@@ -13,22 +14,25 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div>
-        <h3>1</h3>
+        <img
+          className="carousel_div"
+          src={require("../../images/trucks/1.jpg")}
+        />
       </div>
       <div>
-        <h3>2</h3>
+        <img src={require("../../images/trucks/2.jpeg")} />
       </div>
       <div>
-        <h3>3</h3>
+        <img src={require("../../images/trucks/3.jpg")} />
       </div>
       <div>
-        <h3>4</h3>
+        <img src={require("../../images/trucks/4.jpg")} />
       </div>
       <div>
-        <h3>5</h3>
+        <img src={require("../../images/trucks/5.jpeg")} />
       </div>
       <div>
-        <h3>6</h3>
+        <img src={require("../../images/trucks/6.jpeg")} />
       </div>
     </Slider>
   );
