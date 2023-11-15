@@ -1,3 +1,8 @@
-.carousel_div {
-  height: 50%;
+.slick-slide {
+  height: 700px;
+}
+.slick-track {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
