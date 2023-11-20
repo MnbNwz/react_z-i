@@ -1,4 +1,4 @@
-import "./header.css";
+import "./header.scss";
 import Announcement from "./Announcement";
 const Header = () => {
   const anchor = (text) => (

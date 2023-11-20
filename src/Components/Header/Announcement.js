@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./header.scss";
 import faceBookImage from "../../images/Icon awesome-facebook-f.png";
 import TwitterImage from "../../images/Icon awesome-twitter.png";
 import WhatsappImage from "../../images/Icon awesome-whatsapp.png";
@@ -13,7 +13,7 @@ const Announcement = () => {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <div className="announcement-links">
+            <div className="Announcement-links">
               <div className="link-mobile">
                 <img src={telephoneIcon} alt="" />
                 <div>
@@ -32,7 +32,7 @@ const Announcement = () => {
             </div>
           </div>
           <div className="col-6">
-            <div className="announcement-social-wrapper">
+            <div className="Announcement-social-wrapper">
               <a href="#">
                 <img src={faceBookImage} alt="" />
               </a>

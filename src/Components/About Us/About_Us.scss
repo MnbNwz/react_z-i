@@ -1,0 +1,43 @@
+.about-block {
+  padding-top: 50px;
+  .row {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.about-content {
+  h1 {
+    font-size: 50px;
+    color: #133a7c;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 22px;
+    color: #0a0a0a;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 15px;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  p {
+    font-size: 30px;
+    color: #133a7c;
+    font-weight: bold;
+  }
+}
+.content {
+  p {
+    font-size: 22px;
+    color: #0a0a0a;
+  }
+}
